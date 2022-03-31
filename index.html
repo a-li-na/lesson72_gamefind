@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.bg {
+			background-color: black;
+		}
+
+		.str2 {
+			display: none;
+		}
+
+		.str3 {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<!-- это div-родитель -->
+	<div class="col-7 bg-light mx-auto str1">
+		<div>
+			<h1 class="task">Найди жулика. Попробуй собрать 6 баллов</h1>
+			<h1 class="score">Score: <span class="num">0</span></h1>
+		</div>
+		<!-- Дивы с нумерацией 1, 2, 3 и т.д. -->
+		<div class="row">
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>6</h4>
+			</div>
+		</div>
+		<!--Линия А-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border coin">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border treasure">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin">
+				
+			</div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-warning text-center border">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+			
+			</div>
+			<div class="col-1  px-5 py-4 bg border coin">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bang bg border">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border treasure">
+				
+			</div>
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border treasure">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border coin">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme">
+				
+			</div>	
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border coin">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border treasure">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme">
+				
+			</div>
+		</div>
+		<!--Линия E-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg border treasure">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border coin">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme ">
+				
+			</div>
+		</div>
+		<!--Линия F-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="str2" style="width: 800px; margin-right: auto; margin-left: auto;">
+		<img src="lose.jpg" class="ctr2" style="background-size: 100% 100%; border-radius: 50px;">
+	</div>
+
+
+	<div class="str3" style="width: 800px; margin-right: auto; margin-left: auto;">
+		<img src="win.jpg" style="background-size: 100% 100%; border-radius: 50px;">
+	</div>
+
+
+	<script type="text/javascript">
+		// Есть treasure bang meme coin
+		
+		
+	</script>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	let score = 0;
+
+	let coins = document.querySelectorAll('.coin');
+
+
+	for (let i=0; i<7; i=i+1) {
+
+		coins[i].onclick = function() {
+			coins[i].style.backgroundColor = 'white';
+			coins[i].style.backgroundImage = 'url(nothing2.png)';
+			coins[i].style.backgroundSize = '100% 100%';
+		}
+
+	}
+
+
+	let memes = document.querySelectorAll('.meme');
+
+
+	for (let i=0; i<17; i=i+1) {
+
+		memes[i].onclick = function() {
+			memes[i].style.backgroundColor = 'white';
+			memes[i].style.backgroundImage = 'url(nothing.jpg)';
+			memes[i].style.backgroundSize = '100% 100%';
+		}
+
+	}
+
+	
+
+
+	let treasures = document.querySelectorAll('.treasure');
+
+
+	for (let i=0; i<6; i=i+1) {
+
+		treasures[i].onclick = function() {
+			treasures[i].style.backgroundColor = 'white';
+			treasures[i].style.backgroundImage = 'url(thejoulik.jpg)';
+			treasures[i].style.backgroundSize = '100% 100%';
+			score = score+1;
+			document.querySelector('.num').innerHTML = score;
+				if (score < 0) {
+					alert('Ты проиграл');
+					document.querySelector('.str2').style.display = "block";
+					document.querySelector('.str1').style.display = "none";
+				}
+
+				if (score == 6) {
+					alert('Победа');
+					document.querySelector('.str3').style.display = "block";
+					document.querySelector('.str1').style.display = "none";
+				}
+
+		}
+
+	}
+
+
+
+
+
+	let bangs = document.querySelectorAll('.bang');
+
+
+	for (let i=0; i<6; i=i+1) {
+
+		bangs[i].onclick = function() {
+			bangs[i].style.backgroundColor = 'white';
+			bangs[i].style.backgroundImage = 'url(original.jpg)';
+			bangs[i].style.backgroundSize = '100% 100%';
+				score = score-1;
+				document.querySelector('.num').innerHTML = score;
+				if (score < 0) {
+					document.querySelector('.str2').style.display = "block";
+					document.querySelector('.str1').style.display = "none";
+				}
+		}
+
+	}
+
+
+
+	
+
+</script>
